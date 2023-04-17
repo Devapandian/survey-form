@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="firstname" name="firstname"><br>
+<input type="text"id="lastname"name="lastname"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+    
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value ="">select</optiom>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br>
+      <p>How satisfied are you with:</p>
+        <table>
+        <tr>
+          <td>Purchase</td>
+        <td><input type="radio" id="purchase" name="purchase" value="good"</td>
+        <input type="radio" id="purchase" name="purchase" value="good"</td>
+         <input type="radio" id="purchase" name="purchase"value="good" </td>
+        </tr>
+        <tr>
+          <td>service</td>
+          <td><input type="radio" id="service" name="service" value="good"</td>
+          <input type="radio" id="service" name="service" value="good"</td>
+          <input type="radio" id="service" name="service"value="good" </td>
+        </tr>
+        <tr>
+          <td>company over all</td>
+          <td><input type="radio" id="company over all" name="company over all" value="good"</td>
+          <input type="radio" id="company over all" name="company over all" value="good"</td>
+          <input type="radio" id="company over all" name="company over all"value="good" </td>
+        </tr>
+      </table>
+
+      <label for="feedback">Feedback:</label><br>
+      <textarea id="feedback" name="feedback"></textarea><br>
+
+      <input type="submit" value="Submit">
+    </form></div>
+  </body>
+</html>
